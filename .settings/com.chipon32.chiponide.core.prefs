@@ -1,0 +1,13 @@
+#Mon Dec 09 15:17:42 CST 2019
+eclipse.preferences.version=1
+kf32target/ChipPower=3
+kf32target/IspMode=78563412
+kf32target/Protect=5A5AA5A5
+kf32target/chipName=KF32L530MQT
+kf32target/compilerType=ccr1_issue
+kf32target/debugMode=0
+kf32target/debugSpeed=60
+kf32target/dflashuse=-1
+kf32target/dramuse=-1
+kf32target/rflashuse=-1
+kf32target/rramuse=-1
