@@ -2,7 +2,7 @@
   ******************************************************************************
   * 文件名  kf32l_basic_sysctl.c
   * 作  者  ChipON_AE/FAE_Group
-  * 版  本  V2.4
+  * 版  本  V2.5
   * 日  期  2019-11-16
   * 描  述  该文件提供了系统控制相关的功能函数，包含：
   *          + 系统控制(SYSCTL)功能配置函数
@@ -456,6 +456,9 @@ SYSCTL_Flash_Start_Remap_Config (uint32_t MemCtl)
     /*---------------- 配置SYS_MEMCTL寄存器MEMM位 ----------------*/
     SYS_MEMCTL = SFR_Config (SYS_MEMCTL, ~SYS_MEMCTL_MEMM, MemCtl);
 }
+
+
+
 /**
   *   ##### 系统控制(SYSCTL)功能配置函数定义结束 #####
   */
