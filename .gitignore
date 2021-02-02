@@ -50,6 +50,20 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# user define
 .vscode
 Debug
 Release
+config
+_config
+.cproject
+.project
+.settings/
+kf_it.c
+system_init.c
+system_init.h
+main.c
+__Kungfu32_chipmodel_define.h
+!.gitignore
+*.bin
